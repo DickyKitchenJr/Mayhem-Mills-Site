@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "LibreBold";
+  src: url(../Fonts/LibreBaskerville-Bold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LibreItalic";
+  src: url(../Fonts/LibreBaskerville-Italic.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre";
+  src: url(../Fonts/LibreBaskerville-Regular.ttf);
+  font-display: swap;
+}
+
+.books {
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+
+.bookcover {
+  max-width: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  .bookcover {
+    max-width: 90%;
+  }
+}
+
+.bookreview {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsla(0, 0%, 0%, 0.35);
+}
+
+.books {
+  font-family: "Libre", Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom, transparent, black 70%);
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .books {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.book-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bookp {
+  width: fit-content;
+  font-size: 200%;
+  font-weight: bold;
+  color: whitesmoke;
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+  .bookp {
+    font-size: 170%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .bookp {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bookp {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .bookp {
+    margin-left: -1.5rem;
+  }
+}
+
+.bookcover {
+  max-width: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  .bookcover {
+    max-width: 40%;
+  }
+}
+
+.booktitle {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: -3rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .booktitle {
+    margin-top: -1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .booktitle {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .booktitle {
+    font-size: 1.2rem;
+  }
+}
+
+.booktitle span {
+  color: red;
+}
+
+.buybutton {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 1.75rem;
+  margin-top: 2rem;
+  color: whitesmoke;
+  background-color: transparent;
+  border: 4px solid red;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.buybutton:active {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(0, 54%, 30%),
+    hsl(0, 2%, 35%),
+    hsl(0, 54%, 30%)
+  );
+  box-shadow: 0 0 5px 4px whitesmoke;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 900px) {
+  .buybutton {
+    font-size: 125%;
+    padding: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .buybutton {
+    font-size: 100%;
+  }
+}
+
+.boldme {
+  color: red;
+  font-weight: bold;
+}
+
+/* Adjustments to show more of the moon with background image of Book 1 */
+
+.fullmoon {
+  bottom: -12%;
+}
+
+/* Adjustments to keep figure centered with screen size changes for image in Book 2 */
+.mist {
+  bottom: -10%;
+  left: 60% !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mist {
+    left: 75% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .mist {
+    left: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .mist {
+    left: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mist {
+    left: 105% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mist {
+    left: 125% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mist {
+    left: 160% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mist {
+    left: 190% !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mist {
+    left: 210% !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .mist {
+    left: 240% !important;
+  }
+}
+
+/* Adjustments to have skull element show better in book 3 background */
+
+.bones {
+  bottom: -17%;
+}
+
+/* Adjustments to have mountains show better in book 4 background */
+
+.mountains {
+  bottom: 20%;
+}
