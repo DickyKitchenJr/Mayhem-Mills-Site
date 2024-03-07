@@ -1,0 +1,26 @@
+.authortext {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.authortitle {
+  text-align: center;
+  padding: 1rem;
+}
+
+.authortitle span {
+  color: red;
+}
+
+.authorblurb {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.authorblurb a {
+  color: red;
+  font-weight: 800;
+}
