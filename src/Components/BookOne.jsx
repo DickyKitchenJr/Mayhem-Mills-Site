@@ -1,7 +1,12 @@
 import { Parallax } from "react-parallax";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Book1 from "../Images/Book1TDC.webp";
 import TDC from "../Images/fullmoon.webp";
 import "./Books.css";
+
+const cart = <FontAwesomeIcon icon={faCartShopping} />;
 
 const BookOne = () => (
   <Parallax
@@ -55,14 +60,25 @@ const BookOne = () => (
       </span>
       <br />
       <br />
+    </p>
+    <Link to={"/shop"}>
+      <button className="buy-now">{cart} Buy Now</button>
+    </Link>
+    <br />
+    <br />
+    <div className="buy-block">
+      <Link to={"/shop"} className="buy-link">
+        Buy Direct
+      </Link>
       <a
         href="https://www.amazon.com/gp/product/B08XPQ76DM/ref=dbs_a_def_rwt_bibl_vppi_i0"
         target="_blank"
         rel="noreferrer"
+        className="buy-link"
       >
-        <button className="buybutton">Buy on Amazon</button>
+        Buy On Amazon
       </a>
-    </p>
+    </div>
   </Parallax>
 );
 

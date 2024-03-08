@@ -133,20 +133,26 @@
   color: red;
 }
 
-.buybutton {
+.buy-now {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 150%;
-  padding: 1.75rem;
+  padding: 1.75rem 4rem;
   margin-top: 2rem;
   color: whitesmoke;
-  background-color: transparent;
+  background-color: red;
   border: 4px solid red;
-  border-radius: 1rem;
+  border-radius: 5rem;
   cursor: pointer;
 }
 
-.buybutton:active {
+.buy-now:hover {
+  color: black;
+  background-color: hsl(120, 98%, 49%);
+  border-color: hsl(120, 98%, 49%);
+}
+
+.buy-now:active {
   background-image: linear-gradient(
     to bottom,
     hsl(0, 54%, 30%),
@@ -158,16 +164,29 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .buybutton {
+  .buy-now {
     font-size: 125%;
-    padding: 1.25rem;
+    padding: 1.25rem 3.5rem;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .buybutton {
+  .buy-now {
     font-size: 100%;
   }
+}
+
+.buy-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-link {
+  color: whitesmoke;
+}
+
+.buy-link:hover {
+  color: aqua;
 }
 
 .boldme {
