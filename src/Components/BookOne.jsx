@@ -71,12 +71,12 @@ const BookOne = () => (
         Buy Direct
       </Link>
       <a
-        href="https://www.amazon.com/gp/product/B08XPQ76DM/ref=dbs_a_def_rwt_bibl_vppi_i0"
+        href="https://mybook.to/gCawNM"
         target="_blank"
         rel="noreferrer"
         className="buy-link"
       >
-        Buy On Amazon
+        Also Available Here
       </a>
     </div>
   </Parallax>

@@ -67,12 +67,12 @@ const BookThree = () => (
         Buy Direct
       </Link>
       <a
-        href="https://a.co/d/7K4PraN"
+        href="https://mybook.to/6suezB"
         target="_blank"
         rel="noreferrer"
         className="buy-link"
       >
-        Buy On Amazon
+        Also Available Here
       </a>
     </div>
   </Parallax>
