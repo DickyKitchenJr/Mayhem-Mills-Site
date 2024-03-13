@@ -11,17 +11,35 @@
   padding-right: 3rem;
 }
 
-.requestsignedcopy {
+.contact-form {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  padding: .25rem;
   border: 2px solid hsla(348, 83%, 47%, 0.389);
   background-color: hsla(0, 0%, 0%, 0.35);
 }
 
+@media only screen and (min-width: 400px) {
+  .contact-form {
+    padding: 2rem;
+  }
+}
+
 .formh4 {
   font-size: larger;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.for-accessibility {
+  visibility: hidden;
+  display: block;
+  width: 0px;
+  height: 0px;
 }
 
 .requestinput {
