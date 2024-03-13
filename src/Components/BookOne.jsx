@@ -62,23 +62,18 @@ const BookOne = () => (
       <br />
     </p>
     <Link to={"/shop"}>
-      <button className="buy-now">{cart} Buy Now</button>
+      <button className="buy-now">{cart} Buy Direct</button>
     </Link>
     <br />
     <br />
-    <div className="buy-block">
-      <Link to={"/shop"} className="buy-link">
-        Buy Direct
-      </Link>
-      <a
-        href="https://mybook.to/gCawNM"
-        target="_blank"
-        rel="noreferrer"
-        className="buy-link"
-      >
-        Also Available Here
-      </a>
-    </div>
+    <a
+      href="https://mybook.to/gCawNM"
+      target="_blank"
+      rel="noreferrer"
+      className="buy-link"
+    >
+      Also Available Here
+    </a>
   </Parallax>
 );
 
