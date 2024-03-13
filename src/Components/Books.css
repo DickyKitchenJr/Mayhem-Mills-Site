@@ -119,15 +119,10 @@
 @media only screen and (max-width: 500px) {
   .booktitle {
     margin-top: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .booktitle {
-    font-size: 1.2rem;
-  }
-}
 
 .booktitle span {
   color: red;
@@ -176,11 +171,6 @@
   }
 }
 
-.buy-block {
-  display: flex;
-  justify-content: space-between;
-}
-
 .buy-link {
   color: whitesmoke;
 }
@@ -189,9 +179,19 @@
   color: aqua;
 }
 
-.boldme {
-  color: red;
+.bookblurb {
   font-weight: bold;
+}
+
+@media only screen and (min-width: 700px) {
+  .bookblurb {
+    font-weight: normal;
+  }
+
+  .boldme {
+    color: red;
+    font-weight: bold;
+  }
 }
 
 /* Adjustments to show more of the moon with background image of Book 1 */
