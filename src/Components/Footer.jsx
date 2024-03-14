@@ -23,7 +23,7 @@ function Footer() {
           </a>{" "}
           and on{" "}
           <a
-            href="https://www.facebook.com/pursuitofmayhem"
+            href="https://www.facebook.com/mayhemmills/"
             target="_blank"
             rel="noreferrer"
           >
